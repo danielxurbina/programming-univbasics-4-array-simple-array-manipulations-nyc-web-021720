@@ -10,8 +10,8 @@ def using_unshift(array, element)
   updated_array = array.unshift(new_neighborhood)
 end 
 
-def using_pop(array)
-  array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+def using_pop(array, element)
+  array.push ( ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"])
   deleted_string = array.pop
 end
 

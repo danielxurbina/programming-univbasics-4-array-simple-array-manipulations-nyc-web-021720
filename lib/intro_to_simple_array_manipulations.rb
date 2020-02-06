@@ -1,13 +1,9 @@
 def using_push(array, element)
-  array = ["red", "orange", "yellow", "green", "blue", "indigo"]
-  next_color = "violet"
-  updated_array = array.push(next_color)
+ array.push(next_color)
 end
 
 def using_unshift(array, element)
-  array = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
-  new_neighborhood = "Staten Island"
-  updated_array = array.unshift(new_neighborhood)
+ array.unshift(new_neighborhood)
 end 
 
 def using_pop(array)
@@ -23,8 +19,7 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
-  array = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-  brands_removed = array.shift(2)
+ array.shift(2)
 end
 
 def using_concat(array, more_favs)

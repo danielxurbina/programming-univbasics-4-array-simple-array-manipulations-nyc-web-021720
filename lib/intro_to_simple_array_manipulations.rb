@@ -28,8 +28,6 @@ def shift_with_args(array)
 end
 
 def using_concat(array, more_favs)
- array = ["raindrops on roses", "whiskers on kittens"]
- more_favs = ["sports cars", "flatiron school"]
  array.concat(more_favs)
  
 end

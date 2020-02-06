@@ -1,7 +1,5 @@
 def using_push(array, element)
-  array = ["red", "orange", "yellow", "green", "blue", "indigo"]
-  next_color = "violet"
-  updated_array = array.push(next_color)
+ array.push(next_color)
 end
 
 def using_unshift(array, element)

@@ -22,7 +22,7 @@ end
 
 def using_shift(array)
   array = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  array.shift
+  
   #im_so_over_this_city = array.shift
 end
 

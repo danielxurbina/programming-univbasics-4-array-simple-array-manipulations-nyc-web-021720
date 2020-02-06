@@ -33,13 +33,11 @@ def using_concat(array, more_favs)
 end
 
 def using_insert(array, element)
-  array = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-  new_array = array.insert(4, "Python")
+ array.insert(4, "Python")
 end
 
 def using_uniq(array)
-  array = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-  new_array = array.uniq
+ array.uniq
 end
 
 def using_flatten(array)

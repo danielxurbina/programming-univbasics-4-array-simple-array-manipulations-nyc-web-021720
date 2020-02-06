@@ -11,12 +11,12 @@ def using_unshift(array, element)
 end 
 
 def using_pop(array)
-  array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  deleted_string = array.pop
+  array.pop
 end
 
 def pop_with_args(array)
-   array.pop(2)
+   array = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+   small_dogs = array.pop(2)
 end
 
 def using_shift(array, element)

@@ -13,18 +13,16 @@ end
 def using_pop(array)
   array = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
   deleted_string = array.pop
-    
 end
 
 def pop_with_args(array)
    array = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
    small_dogs = array.pop(2)
-   
 end
 
 def using_shift(array)
   array = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  im_so_over_this_city = array.shift(2)
+  im_so_over_this_city = array.shift
 end
 
 def shift_with_args(array)

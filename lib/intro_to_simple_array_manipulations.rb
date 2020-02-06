@@ -1,4 +1,6 @@
 def using_push(array, element)
+ array = ["red", "orange", "yellow", "green", "blue", "indigo"]
+ next_color = "Violet"
  array.push(next_color)
 end
 

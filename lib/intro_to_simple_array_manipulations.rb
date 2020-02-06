@@ -57,7 +57,7 @@ end
 
 def using_delete(array, element)
   array = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-  no_offense_steven = array.delete(array, "Steven")
+  no_offense_steven = array.delete("Steven")
 end
 
 def using_delete_at(array, element)

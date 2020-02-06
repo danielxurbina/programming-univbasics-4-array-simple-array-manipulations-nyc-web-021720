@@ -52,8 +52,7 @@ def using_delete(instructors, element)
 end
 
 def using_delete_at(array, element)
- array = ["Johnny 5", "R2D2", "Robocop"]
- deleted_robot = array.delete_at(2)
+ array.delete_at(2)
 end
 
   

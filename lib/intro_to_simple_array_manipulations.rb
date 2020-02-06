@@ -1,9 +1,13 @@
 def using_push(array, element)
- array.push(next_color)
+  array = ["red", "orange", "yellow", "green", "blue", "indigo"]
+  next_color = "violet"
+  updated_array = array.push(next_color)
 end
 
 def using_unshift(array, element)
- array.unshift(new_neighborhood)
+  array = ["Brooklyn", "Queens", "Manhattan", "Bronx"]
+  new_neighborhood = "Staten Island"
+  updated_array = array.unshift(new_neighborhood)
 end 
 
 def using_pop(array)

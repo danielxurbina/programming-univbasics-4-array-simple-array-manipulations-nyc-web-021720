@@ -21,7 +21,7 @@ def pop_with_args(array)
 end
 
 def using_shift(array, element)
-  array.push("Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London")
+  array.push(["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"])
   im_so_over_this_city = array.shift
 end
 
